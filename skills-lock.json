@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "skills": {
+    "add-data-app-routing": {
+      "source": "metabase/metabase",
+      "ref": "emb-2045-support-saved-questions-for-usemetabasequery-via",
+      "sourceType": "github",
+      "skillPath": "skills/add-data-app-routing/SKILL.md",
+      "computedHash": "bc97a82321649a0beb7094990afb854d1dcbf965471744dfe7cc9ea6dd5dec2a"
+    },
+    "create-data-app": {
+      "source": "metabase/metabase",
+      "ref": "emb-2045-support-saved-questions-for-usemetabasequery-via",
+      "sourceType": "github",
+      "skillPath": "skills/create-data-app/SKILL.md",
+      "computedHash": "2eebbc9b832474ab961e98b9d5669e2c8bb594a2f06183141314345fbda9031c"
+    },
+    "metabase-data-app-actions": {
+      "source": "metabase/metabase",
+      "ref": "emb-2045-support-saved-questions-for-usemetabasequery-via",
+      "sourceType": "github",
+      "skillPath": "skills/metabase-data-app-actions/SKILL.md",
+      "computedHash": "e4a7aaf3dff62993bbc4ebf19eb49eeebaea3b68e8d48fb41ea1d4bc898a6c2d"
+    },
+    "metabase-data-app-semantic-layer": {
+      "source": "metabase/metabase",
+      "ref": "emb-2045-support-saved-questions-for-usemetabasequery-via",
+      "sourceType": "github",
+      "skillPath": "skills/metabase-data-app-semantic-layer/SKILL.md",
+      "computedHash": "de8b248c8ddf5404dc932bbd666b8c64aa695348065142eb47519191dd37d4c1"
+    }
+  }
+}
