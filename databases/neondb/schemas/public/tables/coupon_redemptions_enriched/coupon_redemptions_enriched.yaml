@@ -1,0 +1,21 @@
+name: coupon_redemptions_enriched
+display_name: Coupon Redemptions Enriched
+created_at: '2026-06-08T20:01:55.358971Z'
+db_id: neondb
+schema: public
+entity_type: entity/GenericTable
+active: true
+field_order: database
+initial_sync_status: complete
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: coupon_redemptions_enriched
+  model: Table
+collection_id: librarylibrarydatadat
+data_authority: unconfigured
+data_layer: internal
+is_published: true
+is_writable: true

@@ -1,0 +1,28 @@
+name: user_created_at
+display_name: User Created At
+created_at: '2026-06-08T20:01:56.795358Z'
+visibility_type: normal
+table_id:
+- neondb
+- public
+- coupon_redemptions_enriched
+database_type: timestamptz
+base_type: type/DateTimeWithLocalTZ
+effective_type: type/DateTimeWithLocalTZ
+semantic_type: type/CreationTimestamp
+dimensions: []
+position: 25
+custom_position: 0
+database_position: 25
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: coupon_redemptions_enriched
+  model: Table
+- id: user_created_at
+  model: Field
+database_is_generated: false
+database_is_nullable: true
+database_is_pk: false

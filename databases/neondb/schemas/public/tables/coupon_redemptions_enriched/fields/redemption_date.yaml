@@ -1,0 +1,27 @@
+name: redemption_date
+display_name: Redemption Date
+created_at: '2026-06-08T20:01:56.795358Z'
+visibility_type: normal
+table_id:
+- neondb
+- public
+- coupon_redemptions_enriched
+database_type: date
+base_type: type/Date
+effective_type: type/Date
+dimensions: []
+position: 2
+custom_position: 0
+database_position: 2
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: coupon_redemptions_enriched
+  model: Table
+- id: redemption_date
+  model: Field
+database_is_generated: false
+database_is_nullable: true
+database_is_pk: false

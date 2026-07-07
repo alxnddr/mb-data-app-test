@@ -1,0 +1,21 @@
+name: products
+display_name: Products
+created_at: '2026-06-08T20:01:55.361316Z'
+db_id: neondb
+schema: public
+entity_type: entity/ProductTable
+active: true
+field_order: database
+initial_sync_status: complete
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: products
+  model: Table
+collection_id: librarylibrarydatadat
+data_authority: unconfigured
+data_layer: internal
+is_published: true
+is_writable: true

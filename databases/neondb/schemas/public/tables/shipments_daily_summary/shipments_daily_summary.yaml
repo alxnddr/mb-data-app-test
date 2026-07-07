@@ -1,0 +1,19 @@
+name: shipments_daily_summary
+display_name: Shipments Daily Summary
+created_at: '2026-06-08T20:04:37.653486Z'
+db_id: neondb
+schema: public
+active: false
+field_order: database
+initial_sync_status: complete
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: shipments_daily_summary
+  model: Table
+collection_id: librarylibrarydatadat
+data_authority: unconfigured
+data_layer: internal
+is_published: true

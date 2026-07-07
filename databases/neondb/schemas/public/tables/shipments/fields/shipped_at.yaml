@@ -1,0 +1,27 @@
+name: shipped_at
+display_name: Shipped At
+created_at: '2026-06-08T20:01:58.085505Z'
+visibility_type: normal
+table_id:
+- neondb
+- public
+- shipments
+database_type: timestamptz
+base_type: type/DateTimeWithLocalTZ
+effective_type: type/DateTimeWithLocalTZ
+dimensions: []
+position: 4
+custom_position: 0
+database_position: 4
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: shipments
+  model: Table
+- id: shipped_at
+  model: Field
+database_is_generated: false
+database_is_nullable: true
+database_is_pk: false

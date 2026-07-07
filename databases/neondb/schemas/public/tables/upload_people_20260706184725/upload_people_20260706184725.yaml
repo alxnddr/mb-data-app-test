@@ -1,0 +1,23 @@
+name: upload_people_20260706184725
+display_name: People
+created_at: '2026-07-06T18:47:25.42569Z'
+db_id: neondb
+schema: public
+entity_type: entity/GenericTable
+active: true
+is_upload: true
+field_order: database
+initial_sync_status: complete
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: upload_people_20260706184725
+  model: Table
+collection_id: librarylibrarydatadat
+data_authority: authoritative
+data_layer: internal
+data_source: upload
+is_published: true
+is_writable: true

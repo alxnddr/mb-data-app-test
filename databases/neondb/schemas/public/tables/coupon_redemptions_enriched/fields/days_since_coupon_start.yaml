@@ -1,0 +1,28 @@
+name: days_since_coupon_start
+display_name: Days Since Coupon Start
+created_at: '2026-06-08T20:01:56.795358Z'
+visibility_type: normal
+table_id:
+- neondb
+- public
+- coupon_redemptions_enriched
+database_type: int4
+base_type: type/Integer
+effective_type: type/Integer
+dimensions: []
+position: 20
+custom_position: 0
+database_position: 20
+has_field_values: auto-list
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: coupon_redemptions_enriched
+  model: Table
+- id: days_since_coupon_start
+  model: Field
+database_is_generated: false
+database_is_nullable: true
+database_is_pk: false

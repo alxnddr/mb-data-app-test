@@ -1,0 +1,33 @@
+name: parent_id
+display_name: Parent ID
+created_at: '2026-06-08T20:01:56.465017Z'
+visibility_type: normal
+table_id:
+- neondb
+- public
+- categories
+database_type: int4
+base_type: type/Integer
+effective_type: type/Integer
+semantic_type: type/FK
+fk_target_field_id:
+- neondb
+- public
+- categories
+- id
+dimensions: []
+position: 1
+custom_position: 0
+database_position: 1
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: categories
+  model: Table
+- id: parent_id
+  model: Field
+database_is_generated: false
+database_is_nullable: true
+database_is_pk: false

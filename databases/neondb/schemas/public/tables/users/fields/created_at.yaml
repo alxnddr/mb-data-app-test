@@ -1,0 +1,29 @@
+name: created_at
+display_name: Created At
+created_at: '2026-06-08T20:01:58.404606Z'
+visibility_type: normal
+table_id:
+- neondb
+- public
+- users
+database_type: timestamptz
+base_type: type/DateTimeWithLocalTZ
+effective_type: type/DateTimeWithLocalTZ
+semantic_type: type/CreationTimestamp
+dimensions: []
+position: 5
+custom_position: 0
+database_position: 5
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: users
+  model: Table
+- id: created_at
+  model: Field
+database_default: now()
+database_is_generated: false
+database_is_nullable: false
+database_is_pk: false

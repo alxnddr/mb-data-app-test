@@ -1,0 +1,30 @@
+name: _mb_row_id
+display_name: _mb_row_id
+created_at: '2026-07-06T18:47:25.965601Z'
+visibility_type: normal
+table_id:
+- neondb
+- public
+- upload_people_20260706184725
+database_type: int8
+base_type: type/BigInteger
+effective_type: type/BigInteger
+semantic_type: type/PK
+database_is_auto_increment: true
+dimensions: []
+position: 0
+custom_position: 0
+database_position: 0
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: upload_people_20260706184725
+  model: Table
+- id: _mb_row_id
+  model: Field
+database_default: nextval('upload_people_20260706184725__mb_row_id_seq'::regclass)
+database_is_generated: false
+database_is_nullable: false
+database_is_pk: true
