@@ -1,0 +1,10 @@
+path: common.py
+source: |-
+  # This is your Python library.
+  # You can add functions and classes here that can be reused in Python transforms.
+  123
+entity_id: cWWH9qJPvHNB3rP2vLZrK
+created_at: '2026-05-05T19:27:41.680046Z'
+serdes/meta:
+- id: cWWH9qJPvHNB3rP2vLZrK
+  model: PythonLibrary

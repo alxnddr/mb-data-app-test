@@ -1,0 +1,36 @@
+created_at: '2026-05-25T20:26:20.994915Z'
+creator_id: api-key-user-d03440c3-d6dd-4436-9c12-671fd7462a75@api-key.invalid
+description: 'Nano semantic layer (daily rollup): one row per shipped date, built on shipments_enriched. Daily shipped/delivered/in-transit counts, avg transit & processing days, total order value shipped. Drives the dashboard trend chart.'
+entity_id: o4PdTqxAM78P7CNw-6Cmz
+name: shipments_daily_sumshipments_daily_summaryshipments_daily_summaryshipments_daily_summarymary
+owner_user_id: api-key-user-d03440c3-d6dd-4436-9c12-671fd7462a75@api-key.invalid
+source:
+  query:
+    database: neondb
+    stages:
+    - native: |-
+        SELECT
+          shipped_date                              AS ship_date,
+          count(*)::int                             AS shipments_shipped,
+          sum(is_delivered)::int                    AS shipments_delivered,
+          (count(*) - sum(is_delivered))::int       AS shipments_in_transit,
+          round(avg(transit_days), 2)               AS avg_transit_days,
+          round(avg(processing_days), 2)            AS avg_processing_days,
+          round(sum(order_value), 2)                AS total_order_value
+        FROM public.shipments_enriched
+        GROUP BY 1
+        ORDER BY 2
+      lib/type: mbql.stage/native
+    lib/type: mbql/query
+  type: query
+source_database_id: neondb
+tags: []
+target:
+  database: neondb
+  name: shipments_daily_summary
+  schema: public
+  type: table
+serdes/meta:
+- id: o4PdTqxAM78P7CNw-6Cmz
+  label: shipments_daily_sumshipments_daily_summaryshipments_daily_summaryshipments_daily_summarymary
+  model: Transform

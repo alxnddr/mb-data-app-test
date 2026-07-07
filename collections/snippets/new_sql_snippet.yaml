@@ -1,0 +1,10 @@
+name: New SQL snippet
+entity_id: 7xcOL_bK44msR_RkCr9dO
+created_at: '2026-05-06T00:30:37.00497Z'
+content: qweqwe
+creator_id: aleksandr@metabase.com
+template_tags: {}
+serdes/meta:
+- id: 7xcOL_bK44msR_RkCr9dO
+  label: new_sql_snippet
+  model: NativeQuerySnippet

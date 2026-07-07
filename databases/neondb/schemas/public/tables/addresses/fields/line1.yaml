@@ -1,0 +1,29 @@
+name: line1
+display_name: Line1
+created_at: '2026-05-06T15:58:50.451177Z'
+visibility_type: normal
+table_id:
+- neondb
+- public
+- addresses
+database_type: text
+base_type: type/Text
+effective_type: type/Text
+database_required: true
+dimensions: []
+position: 2
+custom_position: 0
+database_position: 2
+has_field_values: auto-list
+serdes/meta:
+- id: neondb
+  model: Database
+- id: public
+  model: Schema
+- id: addresses
+  model: Table
+- id: line1
+  model: Field
+database_is_generated: false
+database_is_nullable: false
+database_is_pk: false

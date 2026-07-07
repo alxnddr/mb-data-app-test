@@ -1,0 +1,9 @@
+name: '123'
+entity_id: lq2U9vHBLGTNWJotCXudI
+slug: '123'
+created_at: '2026-06-22T21:13:36.27087Z'
+namespace: transforms
+serdes/meta:
+- id: lq2U9vHBLGTNWJotCXudI
+  label: '123'
+  model: Collection
