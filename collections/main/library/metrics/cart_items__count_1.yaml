@@ -26,5 +26,4 @@ serdes/meta:
 - id: h8AMlbzU1td0NDWLQlUZ_
   label: cart_items__count_1
   model: Card
-metabase_version: vUNKNOWN (096c7eb)
 type: metric
